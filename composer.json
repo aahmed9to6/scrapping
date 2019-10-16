@@ -1,0 +1,12 @@
+{
+    "name": "abdullah/scrapper",
+    "authors": [
+        {
+            "name": "Abdullah Ahmed",
+            "email": "abdullah.ahmed@coeus-solutions.de"
+        }
+    ],
+    "require": {
+        "paquettg/php-html-parser": "^2.1"
+    }
+}
