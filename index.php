@@ -24,8 +24,7 @@ $tracks = [
 function getPageTitle($dom) {
     $pageTitle = $dom->find('title');
     $removals = ['<title>', '</title>', 'Tutorial Track for ', ' | SymfonyCasts', ' Video Tutorial Screencast'];
-    $trackTitle = str_replace($removals, '', $pageTitle);
-    return $trackTitle;
+    return str_replace($removals, '', $pageTitle);
 }
 foreach ($tracks as $target) {
     $dom = new Dom;
